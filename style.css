@@ -1,0 +1,26 @@
+:root {
+    --orange: #ff764d;
+    --purpale:#d5b3ff;
+    --blue:#0000ff  ;
+    --lightgreen :#b6ffc0;
+
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background-color: var(--orange);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size:20px;
+    text-align: center;
+    padding-left: 130px;
+    
+}
+.body_img{
+    height: 400px;
+}
