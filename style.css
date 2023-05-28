@@ -82,18 +82,21 @@
 }
 
 .mainfooter{
-    background-color: rgb(33, 199, 217);
+    background-color: rgb(0, 0, 0);
     padding-top: 32px;
+  
+    }
+    .s_one{
+        padding-top: 60px;
+        padding-bottom: 100px;
     }
 
 
 .p_one {
     display: flex;
-  
+  padding-bottom: 150px;
 }
-.text_one{
-    padding-top: 50px;
-}
+
 
 .text_one h1 {
 
@@ -107,5 +110,25 @@
 /* text 2 part */
 .text2 {
     color: var(--white);
+    padding-left: 60px;
 }
-
+.logo_img img{
+    width: 150px;
+    height: 100px;
+       
+}
+.ft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-2 svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+       
+}
+.last_foot a{
+    color: var(--white);
+    text-decoration: none;
+}
