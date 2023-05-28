@@ -70,30 +70,36 @@
 
 
 /* body img part  */
-
-.center_image img {
-    width: 70%;
+.center_image{
     margin-left: auto;
     margin-right: auto;
 
-
 }
 
-.mainfooter {
-    background-color: black;
-
+ img {
+    width: 70%;
+   
 }
+
+.mainfooter{
+    background-color: rgb(33, 199, 217);
+    padding-top: 32px;
+    }
+
 
 .p_one {
     display: flex;
-    align-items: center;
+  
+}
+.text_one{
+    padding-top: 50px;
 }
 
-
-.p_one h1 {
+.text_one h1 {
 
     font-size: 43px;
     color: var(--white);
+    padding-bottom: 40px;
 }
 
 
@@ -103,8 +109,3 @@
     color: var(--white);
 }
 
-.text2 input {
-    padding: 20px 100px;
-    font-size: 20px;
-
-}
