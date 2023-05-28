@@ -1,81 +1,110 @@
 :root {
     --orange: #ff764d;
-    --purpale:#d5b3ff;
-    --blue:#0000ff  ;
-    --lightgreen :#b6ffc0;
-    --white:#FFFFFF;
+    --purpale: #d5b3ff;
+    --blue: #0000ff;
+    --lightgreen: #b6ffc0;
+    --white: #FFFFFF;
 
 }
-*{
+
+* {
     font-family: 'Ubuntu', sans-serif;
-   margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
-.container{
+
+/* .container{
     background-color: var(--orange);
-}
+} */
 
 /* header part  */
 
-.header{
+.background-orange {
+    background-color: var(--orange);
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    
-    
+    align-items: center;
+
 }
-.logo{
-    
-    text-align: center;
-    padding-left: 130px;
-    
+
+.logo img {
+    display: inline-block;
+    max-width: 100%;
 }
-.logo img{
-    width: 140px;
-    height: 100px;
-   
-}
-.navbar{
-    padding:15px 20px;
+
+.navbar-custom {
+    padding: 16px;
     display: flex;
-    margin-top: 10px;
 }
-.download{
-  padding:10px 30px;
-  border-radius: 30px;
-  background-color:var(--blue);
-  margin: 0 5px;
-  border-style: none;
+
+@media (max-width: 576px) {
+    .hide-button {
+        display: none;
+    }
 }
-.download a{
+
+.download {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: var(--blue);
+    margin: 0 5px;
+    border-style: none;
+}
+
+.download a {
     color: var(--white);
     text-decoration: none;
     font-size: 20px;
 }
-.round{
-    padding:10px 15px;
+
+.round {
+    padding: 10px 15px;
     background-color: var(--white);
     border-radius: 50%;
     border-style: none;
-    margin:0 5px 
+    margin: 0 5px
 }
 
-.icon{
-    padding:10px ;
-    margin: 0 5px;
-    margin-right: 90px;
-    margin-left: 20px;
-    background-color: var(--orange);
-    border: none;
-}
-.icon i{
-    font-size: 30px;
-}
+
 /* body img part  */
-.body_img{
-    height: 400px;
+
+.center_image img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
-.body_img img{
-    width: 200px;
-    height: 200px;
+.mainfooter {
+    background-color: black;
+
+}
+
+.p_one {
+    display: flex;
+    align-items: center;
+}
+
+
+.p_one h1 {
+
+    font-size: 43px;
+    color: var(--white);
+}
+
+
+
+/* text 2 part */
+.text2 {
+    color: var(--white);
+}
+
+.text2 input {
+    padding: 20px 100px;
+    font-size: 20px;
+
 }
