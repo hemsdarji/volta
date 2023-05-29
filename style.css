@@ -30,7 +30,7 @@
 
 }
 
-.logo img {
+.logo{
     display: inline-block;
     max-width: 100%;
 }
@@ -70,15 +70,13 @@
 
 
 /* body img part  */
-.center_image{
+.main_image{
     margin-left: auto;
     margin-right: auto;
-
 }
 
- img {
+.main_image img {
     width: 70%;
-   
 }
 
 .mainfooter{
@@ -121,7 +119,7 @@
 }
 @media (max-width: 992px) {
     .text2{
-    padding-left: 10px;
+    padding-left: 0px;
   }
 }
 

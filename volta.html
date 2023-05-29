@@ -39,8 +39,8 @@
             </header>
 
             <!--body image part -->
-            <div>
-                <div class="center_image">
+            <div class="main_image">
+                <div>
                     <img src="/image/web.jpg">
                 </div>
             </div>
@@ -66,55 +66,79 @@
                             <div>
                                 <div class="input-group input-group-lg">
                                     <input type="text" class="form-control" aria-label="Sizing example input"
-                                        aria-describedby="inputGroup-sizing-lg"
-                                        placeholder="Input yout name">
+                                        aria-describedby="inputGroup-sizing-lg" placeholder="Input yout name">
                                 </div>
                                 <p style="color: red;font-size:large;">Please complete all required fields.</p>
 
                                 <div class="input-group input-group-lg">
                                     <input type="text" class="form-control" aria-label="Sizing example input"
-                                        aria-describedby="inputGroup-sizing-lg"
-                                        placeholder="Input yout email">
+                                        aria-describedby="inputGroup-sizing-lg" placeholder="Input yout email">
                                 </div>
                                 <p style="color: red;font-size:large;">Please complete all required fields.</p>
                             </div>
                             <div style="margin: 40px 0;">
                                 <h1 style="font-size: 20px;">Are you in the Twitch Affiliate Program?
                                 </h1>
-                                <form style="margin: 10px 0;">
-                                    <input type="checkbox">
-                                    <label>yes </label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>I'm in Twitch Partner Program already </label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>No, not yet but I'm working towards it</label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>I don't stream on Twitch</label>
-                                    <br>
-                                </form>
+                                <!-- USE BOOTSTRAP FORM  -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        I'm in Twitch Partner Program already
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        No, not yet but I'm working towards it
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        I don't stream on Twitch
+                                    </label>
+                                </div>
                             </div>
                             <div style="margin: 40px 0;">
                                 <h1 style="font-size: 20px;">What's your music performance software? </h1>
-                                <form>
-                                    <input type="checkbox">
-                                    <label>Ableton Live</label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>Traktor</label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>Other source of OSC data</label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>Other source of MIDI data</label>
-                                    <br>
-                                    <input type="checkbox">
-                                    <label>Other</label>
-                                    <br>
-                                </form>
+                                
+                                <!--  USE BOOTSTRAP FORM  -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Ableton Live
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Traktor
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Other source of OSC data
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Other source of MIDI data
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Other
+                                    </label>
+                                </div>
                             </div>
                             <div class="input-group input-group-lg mb-1">
                                 <input type="text" class="form-control" aria-label="Sizing example input"
@@ -138,8 +162,8 @@
 
                     <!-- part 2 -->
                     <div class="container-xl s_two">
-                        
-                        
+
+
                         <!-- logo / icon -->
                         <div class="ft">
 
@@ -149,7 +173,7 @@
                                     loading="lazy" alt="Volta Logo">
                             </div>
 
-                            <!--insta/fb etc  icon  -->
+                            <!-- USE BOOTSTRAP insta/fb etc  icon  -->
                             <div class="hstack gap-2 ">
                                 <div class="p-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
