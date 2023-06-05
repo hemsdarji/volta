@@ -1,0 +1,155 @@
+:root {
+    --orange: #ff764d;
+    --purpale: #d5b3ff;
+    --blue: #0000ff;
+    --lightgreen: #b6ffc0;
+    --white: #FFFFFF;
+
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    background-color: var(--orange);
+} */
+
+/* header part  */
+
+.background-orange {
+    background-color: var(--orange);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.navbar-custom {
+    padding: 16px;
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    .hide-button {
+        display: none;
+    }
+}
+
+.download {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: var(--blue);
+    margin: 0 5px;
+    border-style: none;
+}
+
+.download a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.round {
+    padding: 10px 15px;
+    background-color: var(--white);
+    border-radius: 50%;
+    border-style: none;
+    margin: 0 5px
+}
+
+
+/* body img part  */
+.main_image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_image img {
+    width: 70%;
+}
+
+.mainfooter{
+    background-color: rgb(0, 0, 0);
+    padding-top: 32px;
+  
+    }
+    .s_one{
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+
+.p_one {
+    display: flex;
+  padding-bottom: 150px;
+}
+@media (max-width: 992px) {
+    .p_one{
+        display: block;
+        width: auto;
+    }
+    
+}
+
+
+.text_one h1 {
+
+    font-size: 43px;
+    color: var(--white);
+    padding-bottom: 40px;
+}
+
+
+
+/* text 2 part */
+.text2 {
+    color: var(--white);
+    padding-left: 60px;
+}
+@media (max-width: 992px) {
+    .text2{
+    padding-left: 0px;
+  }
+}
+
+/* @media (max-width: 576px) {
+    .text2 input{
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 376px){
+    .text2 input{
+        padding: 5px 10px;
+    }
+} */
+.logo_img img{
+    width: 150px;
+    height: 100px;
+       
+}
+.ft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-2 svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+       
+}
+.last_foot a{
+    color: var(--white);
+    text-decoration: none;
+}
